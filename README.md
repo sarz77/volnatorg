@@ -15,7 +15,7 @@
       <li>Email Sending Automation for the Load Testing. </li>
 </ul> 
   </p>
-  <a href="https://github.com/sarz77/volnatorg/blob/cdd9c846fdcf2bdcadc6ac63d8a74ca67890150d/FormFill.jpg">
+  <a href="https://raw.github.com/sarz77/volnatorg/FormFill.jpg">
   <img src="image.jpg" alt="Description of image" width="300" height="200">
 </a>
 
