@@ -12,25 +12,25 @@
     This project automates: 
     <ul>
       <li>The "Question to Manager" form submission of the website.</li>
-      <li>Email Sending Automation for the Load Testing. </li>
-</ul> 
+      <li>Email Sending Automation for Load Testing.</li>
+    </ul> 
   </p>
 
-<h2>Form Submission Automation</h2>
+  <h2>Form Submission Automation</h2>
   <p>
-Using Playwright, the script simulates user behavior to send multiple form submissions while ensuring compliance with timing and input requirements.
+    Using Playwright, the script simulates user behavior to send multiple form submissions while ensuring compliance with timing and input requirements.
   </p>
   <p>
-    The configuration allows set up the form sending count.
+    The configuration allows setting up the form sending count.
   </p>
-  <h4> Form from the website </h4>
-<a href="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/FormFill.jpg">
-  <img src="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/FormFill.jpg" alt="Description of image" width="927" height="513">
-</a>
-<h4>The logged reporting file will look like this</h4>
-<a href="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/Frms.jpg">
-  <img src="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/Frms.jpg" alt="Description of image" width="927" height="513">
-</a>
+  <h4>Form from the website</h4>
+  <a href="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/FormFill.jpg">
+    <img src="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/FormFill.jpg" alt="Description of image" width="927" height="513">
+  </a>
+  <h4>The logged reporting file will look like this</h4>
+  <a href="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/Frms.jpg">
+    <img src="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/Frms.jpg" alt="Description of image" width="927" height="513">
+  </a>
 
   <h2>Email Sending Automation</h2>
   <p>
@@ -39,22 +39,36 @@ Using Playwright, the script simulates user behavior to send multiple form submi
   <p>
     Please note that Google allows sending only up to 500 emails per day from a single account. To use this feature, you must create an <i>App Password</i> from the Google account settings, as the actual account password cannot be used for authentication.
   </p>
-  <h4> The sent emails log file will look like this </h4>
-<a href="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/Emls.jpg">
-  <img src="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/Emls.jpg" alt="Description of image" width="927" height="513">
-</a>
+  <h4>The sent emails log file will look like this</h4>
+  <a href="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/Emls.jpg">
+    <img src="https://raw.githubusercontent.com/sarz77/volnatorg/main/Attachments/Emls.jpg" alt="Description of image" width="927" height="513">
+  </a>
+
   <h3>Languages and Tools Used</h3>
   <ul>
     <li><b>TypeScript</b> (Node.js)</li>
+    <li><b>Playwright</b> for form submission automation</li>
     <li><b>Nodemailer</b> for email sending</li>
     <li><b>File System (fs)</b> for logging</li>
   </ul>
+
+  <h3>How to Run the Form Submission Script</h3>
+  <ol>
+    <li><b>Clone the Repository:</b></li>
+    <pre><code>git clone https://github.com/sarz77/volnatorg.git
+cd volnatorg
+    </code></pre>
+    <li><b>Install Dependencies:</b></li>
+    <pre><code>npm install</code></pre>
+    <li><b>Run the Script:</b></li>
+    <pre><code>npx playwright test</code></pre>
+  </ol>
 
   <h3>How to Run the Email Sending Script</h3>
   <ol>
     <li><b>Clone the Repository:</b></li>
     <pre><code>git clone https://github.com/sarz77/volnatorg.git
-cd volnatorg-form-automation
+cd volnatorg
     </code></pre>
     <li><b>Install Dependencies:</b></li>
     <pre><code>npm install nodemailer</code></pre>

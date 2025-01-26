@@ -14,18 +14,8 @@ const log = (message: string): void => {
 
 // Configuration
 const accounts = [
-  { email: "uchihagost23@gmail.com", password: "gtmn lhcr nlad hjut" },
-  { email: "thomasanderson077077@gmail.com", password: "gbun sksr mmai mpcl" },
-  { email: "arzanyan1996@gmail.com", password: "jtjp engf kzmg axrz" },
-  { email: "surena232323@gmail.com", password: "tloh nprc nfxr rvnj" },
-  { email: "suren.arzanyan512@gmail.com", password: "ikjs fvwy nhic yxxx" },
-  { email: "myyy45685@gmail.com", password: "cmpw gntp dlyn gezq" },
-  { email: "yuzmusho@gmail.com", password: "hhod tmbu fuaz dgka" },
-  { email: "mushchilly@gmail.com", password: "nihq yctu thva vwty" },
-  { email: "yuzmushegh83@gmail.com", password: "towe zqze yerr ibhn" },
-  { email: "shusharzanyan2010@gmail.com", password: "jzpk mfba zrzu hnkn" },
-  { email: "uchihahero23@gmail.com", password: "tiyw gejj foon yamx" },
-  { email: "uchihahope23@gmail.com", password: "toay roqt yhll mnkh" },
+  { email: "test@gmail.com", password: "gtmn laaa nlad hjut" },
+  { email: "test@gmail.com", password: "gbun sasr maai mpcl" },
 ];
 const emailReceiver = "Info@volnatorg.ru"; // Recipient's email
 const maxEmailsPerAccount = 470;
