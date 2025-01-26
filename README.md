@@ -11,20 +11,20 @@
   <p>
     This project automates: 
     <ul>
-      <li>The "Question to Manager" form submission of the Volnatorg website.</li>
+      <li>The "Question to Manager" form submission of the website.</li>
       <li>Email Sending Automation for the Load Testing. </li>
 </ul> 
   </p>
+  <a href="https://github.com/sarz77/volnatorg/blob/cdd9c846fdcf2bdcadc6ac63d8a74ca67890150d/FormFill.jpg">
+  <img src="image.jpg" alt="Description of image" width="300" height="200">
+</a>
 
 <h2>Form Submission</h2>
   <p>
 Using Playwright, the script simulates user behavior to send multiple form submissions while ensuring compliance with timing and input requirements.
   </p>
   <p>
-    The configuration allows sending a total of <b>470 emails per account</b>, with a maximum of <b>4700 emails</b> being sent in total. The script runs for <b>3 hours</b>, and each email is sent with a time interval to ensure a controlled, high-volume sending process.
-  </p>
-  <p>
-    Please note that Google allows sending only up to 500 emails per day from a single account. To use this feature, you must create an <i>App Password</i> from the Google account settings, as the actual account password cannot be used for authentication.
+    The configuration allows set up the form sending count.
   </p>
 
 
